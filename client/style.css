@@ -1,0 +1,84 @@
+.style_search_bar{
+    text-align: center;
+    border: none;
+    padding: 40px;
+    margin: none;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.main_bgc {
+    background-color:thistle;
+    border-bottom: 3px solid black;
+}
+
+.style_homepage_title {
+    text-align: center;
+    line-height: 0%;
+    margin: none;
+    padding: 40px;
+}
+
+.style_sellorbuy_btn {
+    text-align: center;
+}
+
+.style_sell_btn {
+    border: none;
+    padding: 80px 65px;
+    cursor: pointer;
+    text-align: center;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    font-size: 30px;
+    margin-bottom: 100px;
+    margin-right: 30px;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    transition-duration: 0.4s;
+}
+
+/* .style_HTU_btn {
+    border: none;
+    padding: 80px 20px;
+    margin: none;
+    cursor: pointer;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px;
+    background-color: whitesmoke;
+    border: 3px solid black;
+    transition-duration: 0.4s;
+} */
+
+.style_buy_btn {
+    border: none;
+    padding: 80px 70px;
+    cursor: pointer;
+    text-align: center;
+    border-top-left-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 100px; 
+    margin-left: 30px; 
+    background-color: whitesmoke; 
+    border: 3px solid black;
+    transition-duration: 0.4s;
+}
+
+.style_sell_btn:hover {
+    background-color: lightgray;
+}
+
+/* .style_HTU_btn:hover {
+    background-color: lightgray;
+} */
+
+.style_buy_btn:hover {
+    background-color: lightgray;
+}

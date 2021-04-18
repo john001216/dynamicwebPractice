@@ -1,0 +1,63 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Durham Second-hand Online Store </title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+<!-- 
+    <script>
+     function validateForm() {
+      var x = document.forms["InputForm"]["newthing"].value;
+      if (x == "") {
+        alert("Name must be filled out");
+        return false;
+      }
+      else{
+        alert(x);
+      }
+    } 
+    </script>
+ -->
+</head>
+
+<body>
+  
+    <div class="style_search_bar">
+        <form action="search.php">
+            <label for="product-name" value="Search">Search : </label>
+            <input type="text" id="product-name" placeholder="Find what you want!" width: 100px;>
+
+            <input type="submit" value="Go">
+        </form>
+    </div>
+    <div class="main_bgc">
+        <div class="style_homepage_title">
+            <h1>Second-hand Online Market</h1><br/>
+            <h2>in</h2><br/>
+            <h1>Durahm</h1>
+        </div>
+
+        <div class="style_sellorbuy_btn">
+            <!-- form action 추가 해야됨 -->
+            <button class="style_sell_btn" type = "button">SELL</button>
+            <!-- <button class="style_HTU_btn" type = "button" onclick="instructionPopup();">How To Use</button> -->
+            <button class="style_buy_btn" type = "button">BUY</button>
+        </div> 
+    </div>
+    <ul id='things'></ul>
+
+    <form action='/thing/add' onsubmit="return validateForm()" method='post'>
+    <!-- <form name="InputForm"  onsubmit="return validateForm()" method='post'> -->
+      <!-- <form name="InputForm" action='/thing/add' onsubmit="return validateForm()" method='post'> -->
+     <!-- <input type='text'> -->
+    <input name='newthing' type='text'>
+    <input type='submit' value='submit'>
+    </form>
+
+
+</body>
+
+</html>
