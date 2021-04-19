@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resist your product</title>
+</head>
+<body>
+    <h1>Upload My Product</h1>
+    <form action="register.php">
+        <fieldset>
+            <legend><b>Product info</b></legend>
+            <p><b>Register information of your product.</b></p>
+            <ul>
+                <li>
+                    <lable for="product_name">Product Name</lable>
+                    <input type="text" id="product_name" required autofocus>
+                </li>
+                <li>
+                    <lable for="price">Price</lable>
+                    <input type="text" id="price" required>
+                </li>
+            </ul>
+            <p><b>Upload the picture of product.</b></p>
+            <ul>
+                <li>
+                    <lable for="product_picture">Product Picture</lable>
+                    <input type="file" id="product_picture" accept="image/*">
+                </li>
+            </ul>
+            <p><b>Condition of Product</b></p>
+            <ul>
+                <li><label><input type="radio" name="condition" value="new" required>New</label></li>
+                <li><label><input type="radio" name="condition" value="used" required>Used</label></li>
+            </ul>
+            <p><b>Specific Information</b></p>
+            <lable for="explanation">Explain your product!</lable><br/>
+            <textarea id="explanation" rows="7" cols="40"></textarea>
+        </fieldset>
+        <div>
+            <input type="submit" value="Sell">
+            <input type="reset" value="Cancel">
+        </div>
+    </form>
+</body>
+</html>

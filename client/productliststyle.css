@@ -1,0 +1,10 @@
+.style_search_bar{
+    text-align: center;
+    border: none;
+    padding: 40px;
+    margin: none;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    background-color:thistle;
+    margin-bottom: 20px;
+}

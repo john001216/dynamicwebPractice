@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products list</title>
+    <link href="productliststyle.css" rel="stylesheet" type="text/css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src='productlistpage.js' type="text/javascript"></script>
+    <style>
+        .img {
+            /* background-color: antiquewhite;
+            padding: 10px;
+            margin-left: 40px;
+            margin-right: 40px; */
+            text-align: center;
+            /* display:flex; */
+        }
+        .img_arrange {
+            display: inline-block;
+            margin: 30px;
+            border: 3px solid black;
+            cursor: pointer;
+            transition-duration: 0.4s;
+        }
+
+        .img_arrange:hover {
+            box-shadow: 0 12px 16px 0 rgba(0,0,0,0.30), 0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+
+    </style>
+</head>
+<body>
+    <div class="style_search_bar">
+        <form action="search.php">
+            <label for="product-name" value="Search">Search : </label>
+            <input type="text" id="product-name" placeholder="Find what you want!" width: 100px;>
+
+            <input type="submit" value="Go">
+        </form>
+    </div>
+
+    <div id="content">
+        <div class="img">
+            <div class="img_arrange">
+                <a href="#"><img src="#" width="300" height="300"></a>
+            </div>
+            <div class="img_arrange">
+                <a href="#"><img src="#" width="300" height="300"></a>
+            </div>
+            <div class="img_arrange">
+                <a href="#"><img src="#" width="300" height="300"></a>
+            </div>
+        </div>
+    </div>
+
+    <div style="text-align: center; margin-bottom: 50px;" >
+        <button id= "lmbutton" onclick="loadmore()">Load More</button>
+    </div>
+    <!-- <script type="text/javascript">
+        var items = ["one", "two", "three", "four", "five", "six"]
+
+        var currentindex = 0
+
+        function loadmore(){
+            var maxresult = 1
+            for(var i = 0; i < maxresult; i++){
+                if(currentindex >= items.length){
+                    $("#lmbutton").hide()
+                    return
+                }
+                // $("#content").append("<div>"+items[i+currentindex]+"</div>")
+                $("#content").append('<div class="img"> <div class="img_arrange"> <img src="#" width="300" height="300"> </div> <div class="img_arrange"> <img src="#" width="300" height="300"> </div> <div class="img_arrange"> <img src="#" width="300" height="300"> </div> </div>')
+            }
+            currentindex += maxresult
+        }
+
+        loadmore()
+    </script> -->
+
+
+
+</body>
+</html>
