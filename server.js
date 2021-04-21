@@ -12,6 +12,12 @@ let things = ['Jugnoo is the cutest dog in the world',
 
 let toys = ['Piano, Scotty'];
 
+// let people = [person1, person2]
+
+// let person
+
+// let products = []
+
 
 
 app.use(express.static('client'));

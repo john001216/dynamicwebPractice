@@ -15,4 +15,6 @@ function loadmore(){
     currentindex += maxresult
 }
 
-loadmore()
+function scrollToBottom() {
+    document.documentElement.scrollTop = document.body.scrollHeight;
+}
