@@ -4,19 +4,20 @@ var app = express()
 
 
 let thing = [];
-let things = ['Jugnoo is the cutest dog in the world',
-  'Jugnoo is very restful',
-  'Jugnoo is very friendly',
-  'Jugnoo plays the Piano',
-  'Jugnoo has a friend named Scotty'];
+let things = ['bag',
+'shoes',
+'coffee',
+'computer'];
 
 let toys = ['Piano, Scotty'];
 
-// let people = [person1, person2]
+// let people = [person1, person2];
 
-// let person
+// let person1 = {"product_name": , "sellerName": , "phoneNum": , "email": , "college": };
 
-// let products = []
+// let products = [];
+
+// let product1 = {"product_name": , "price": , "product_picture": , "condition": , "explanation": };
 
 
 
